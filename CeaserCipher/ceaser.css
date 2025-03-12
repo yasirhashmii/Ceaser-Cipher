@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'Delius-Regular'; /* Name of the font */
+    src: url('fonts/Delius-Regular.ttf') format('truetype'), /* Modern browsers */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #021526;
+}
+.main-container{
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px black;
+    font-family: 'Delius-Regular';
+    background-color:#03346E;
+    color: whitesmoke;
+    position: relative;
+    top: 110px;
+}
+input,textarea{
+    background-color: #6EACDA;
+    border-radius: 2px;
+}
+textarea{
+    resize: none;
+    height: 120px;
+}
+header{
+    border-bottom: solid 1px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#output{
+    height: 30px;
+    background-color:#6EACDA ;
+    border-radius: 2px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 24px;
+}
